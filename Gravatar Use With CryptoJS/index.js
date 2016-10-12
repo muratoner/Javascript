@@ -1,1 +1,1 @@
-document.write("<img src='"+CryptoJS.MD5("muhackgames@gmail.com")+"' />");
+document.write("<img src='http://www.gravatar.com/avatar/"+CryptoJS.MD5("muhackgames@gmail.com")+"' />");
