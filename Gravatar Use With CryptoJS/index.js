@@ -1,0 +1,1 @@
+document.write("<img src='"+CryptoJS.MD5("muhackgames@gmail.com")+"' />");
