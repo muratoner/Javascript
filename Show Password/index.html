@@ -25,7 +25,7 @@
         }
         
         .column {
-            max-width: 450px;
+            max-width: 450px !important;
         }
     </style>
 </head>
@@ -33,26 +33,25 @@
 <body>
     <div class="ui middle aligned center aligned grid">
         <div class="column">
-<form class="ui large form">
-    <div class="ui stacked segment">
-        <div class="field">
-            <div class="ui icon input">
-                <input type="text" name="email" placeholder="E-mail address"> </div>
-        </div>
-        <div class="field">
-            <div class="ui icon input">
-                <input type="password" id="password" name="password" placeholder="Password"> <i class="circular eye link icon" onclick="togglePassword()"></i> </div>
-        </div>
-        <div class="ui fluid large teal submit button">Login</div>
-    </div>
-</form>
+            <form class="ui large form">
+                <div class="ui stacked segment">
+                    <div class="field">
+                        <div class="ui icon input">
+                            <input type="text" name="email" placeholder="E-mail address"> </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui icon input">
+                            <input type="password" id="password" name="password" placeholder="Password"> <i class="circular eye link icon" onclick="togglePassword()"></i> </div>
+                    </div>
+                    <div class="ui fluid large teal submit button">Login</div>
+                </div>
+            </form>
         </div>
     </div>
     <script>
-function togglePassword() {
-    debugger;
-    document.getElementById('password').type = (document.getElementById('password').type == 'password' ? 'text' : 'password');
-}
+        function togglePassword() {
+            document.getElementById('password').type = (document.getElementById('password').type == 'password' ? 'text' : 'password');
+        }
     </script>
 </body>
 
