@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>Airport - Departures Board</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script src="departures-board.js"></script>
+</head>
+
+<body>
+    <div id="test"></div>
+    <script>
+        var board = new DepartureBoard(document.getElementById("test"), {
+            rowCount: 10
+        });
+        board.setValue(["10:00 Kırklareli",
+            "19:25 İstanbul",
+            "19:00 Ürdün",
+            "15:00 Şanlıurfa",
+            "21:00 İzmir",
+            "22:50 İran",
+            "23:15 Irak",
+            "19:25 Van",
+            "22:50 Sivas",
+            "23:55 Iğdır"
+        ]);
+    </script>
+</body>
+
+</html>
